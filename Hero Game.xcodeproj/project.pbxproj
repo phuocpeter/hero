@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		989CF1B41C87BBC00022C275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989CF1B31C87BBC00022C275 /* AppDelegate.swift */; };
+		989CF1B61C87BBC00022C275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989CF1B51C87BBC00022C275 /* ViewController.swift */; };
+		989CF1B91C87BBC00022C275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989CF1B71C87BBC00022C275 /* Main.storyboard */; };
+		989CF1BC1C87BBC00022C275 /* Hero_Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 989CF1BA1C87BBC00022C275 /* Hero_Game.xcdatamodeld */; };
+		989CF1BE1C87BBC00022C275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989CF1BD1C87BBC00022C275 /* Assets.xcassets */; };
+		989CF1C11C87BBC00022C275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989CF1BF1C87BBC00022C275 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		989CF1B01C87BBC00022C275 /* Hero Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hero Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989CF1B31C87BBC00022C275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		989CF1B51C87BBC00022C275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		989CF1B81C87BBC00022C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		989CF1BB1C87BBC00022C275 /* Hero_Game.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hero_Game.xcdatamodel; sourceTree = "<group>"; };
+		989CF1BD1C87BBC00022C275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		989CF1C01C87BBC00022C275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		989CF1C21C87BBC00022C275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		989CF1AD1C87BBC00022C275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		989CF1A71C87BBC00022C275 = {
+			isa = PBXGroup;
+			children = (
+				989CF1B21C87BBC00022C275 /* Hero Game */,
+				989CF1B11C87BBC00022C275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		989CF1B11C87BBC00022C275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989CF1B01C87BBC00022C275 /* Hero Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989CF1B21C87BBC00022C275 /* Hero Game */ = {
+			isa = PBXGroup;
+			children = (
+				989CF1B31C87BBC00022C275 /* AppDelegate.swift */,
+				989CF1B51C87BBC00022C275 /* ViewController.swift */,
+				989CF1B71C87BBC00022C275 /* Main.storyboard */,
+				989CF1BD1C87BBC00022C275 /* Assets.xcassets */,
+				989CF1BF1C87BBC00022C275 /* LaunchScreen.storyboard */,
+				989CF1C21C87BBC00022C275 /* Info.plist */,
+				989CF1BA1C87BBC00022C275 /* Hero_Game.xcdatamodeld */,
+			);
+			path = "Hero Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		989CF1AF1C87BBC00022C275 /* Hero Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989CF1C51C87BBC00022C275 /* Build configuration list for PBXNativeTarget "Hero Game" */;
+			buildPhases = (
+				989CF1AC1C87BBC00022C275 /* Sources */,
+				989CF1AD1C87BBC00022C275 /* Frameworks */,
+				989CF1AE1C87BBC00022C275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hero Game";
+			productName = "Hero Game";
+			productReference = 989CF1B01C87BBC00022C275 /* Hero Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		989CF1A81C87BBC00022C275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tran Thai Phuoc";
+				TargetAttributes = {
+					989CF1AF1C87BBC00022C275 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SAZ499KRSP;
+					};
+				};
+			};
+			buildConfigurationList = 989CF1AB1C87BBC00022C275 /* Build configuration list for PBXProject "Hero Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 989CF1A71C87BBC00022C275;
+			productRefGroup = 989CF1B11C87BBC00022C275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				989CF1AF1C87BBC00022C275 /* Hero Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		989CF1AE1C87BBC00022C275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989CF1C11C87BBC00022C275 /* LaunchScreen.storyboard in Resources */,
+				989CF1BE1C87BBC00022C275 /* Assets.xcassets in Resources */,
+				989CF1B91C87BBC00022C275 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		989CF1AC1C87BBC00022C275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989CF1B61C87BBC00022C275 /* ViewController.swift in Sources */,
+				989CF1BC1C87BBC00022C275 /* Hero_Game.xcdatamodeld in Sources */,
+				989CF1B41C87BBC00022C275 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		989CF1B71C87BBC00022C275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989CF1B81C87BBC00022C275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		989CF1BF1C87BBC00022C275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989CF1C01C87BBC00022C275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		989CF1C31C87BBC00022C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		989CF1C41C87BBC00022C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		989CF1C61C87BBC00022C275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hero Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ttp.Hero-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		989CF1C71C87BBC00022C275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hero Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ttp.Hero-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		989CF1AB1C87BBC00022C275 /* Build configuration list for PBXProject "Hero Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989CF1C31C87BBC00022C275 /* Debug */,
+				989CF1C41C87BBC00022C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989CF1C51C87BBC00022C275 /* Build configuration list for PBXNativeTarget "Hero Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989CF1C61C87BBC00022C275 /* Debug */,
+				989CF1C71C87BBC00022C275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		989CF1BA1C87BBC00022C275 /* Hero_Game.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				989CF1BB1C87BBC00022C275 /* Hero_Game.xcdatamodel */,
+			);
+			currentVersion = 989CF1BB1C87BBC00022C275 /* Hero_Game.xcdatamodel */;
+			path = Hero_Game.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 989CF1A81C87BBC00022C275 /* Project object */;
+}
