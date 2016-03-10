@@ -13,6 +13,9 @@ class MainMenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let p1 = Player(name: "Player", health: 100, atk: 100, def: 100)
+        print(p1.sword)
+        print(GameCharacter.monsters[0].name)
     }
 
     override func didReceiveMemoryWarning() {
